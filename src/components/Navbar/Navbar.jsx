@@ -18,7 +18,7 @@ export default function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <nav className=" bg-black   text-white rounded-b-2xl lg:rounded-b-none ">
+        <nav className={` ${isOpen&&'opacity-90'} bg-black   text-white rounded-b-2xl lg:rounded-b-none  fixed top0  w-full`}>
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between py-5 mx-auto px-6">
                 <div className='flex items-center gap-3'>
                     <span className='h-2 w-2 bg-white rounded-full'></span>
@@ -38,7 +38,7 @@ export default function Navbar() {
                 >
                     <ul className="font-medium text-center flex flex-col md:flex-row p-4 md:p-0 mt-4  gap-9  md:mt-0">
                         <li>
-                            <NavLink to={'/'} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>Home</NavLink>
+                            <NavLink to={''} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>Home</NavLink>
                         </li>
                         <li>
                             <NavLink to={'/about'} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>About</NavLink>
@@ -54,9 +54,6 @@ export default function Navbar() {
                         </li>
                     </ul>
                 </div>
-                {/* <button onClick={shandledarkmode} type="button" className=" cursor-pointer md:block hidden">
-                    <i id='smoon' className='bx bxs-moon text-[21px] cursor-pointer '></i>
-                </button> */}
             </div>
         </nav>
     )

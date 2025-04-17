@@ -12,7 +12,7 @@ export default function App() {
 
   let router = createBrowserRouter([
     {
-      path: '', element: <Layout></Layout>, children: [
+      path: '/', element: <Layout></Layout>, children: [
         { index: true, element: <Home></Home> },
         { path: 'about', element: <About></About> },
         { path: 'services', element: <Services></Services> },
