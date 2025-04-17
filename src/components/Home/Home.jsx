@@ -6,7 +6,7 @@ export default function Home() {
     return <>
 
         <div className='h-[25px] '></div>
-        <div id='home' className="ccontainer text-center h-screen  flex items-center justify-center flex-col mx-auto ">
+        <div id='home' className="ccontainer  text-center h-screen  flex items-center justify-center flex-col mx-auto ">
             <motion.h2
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}

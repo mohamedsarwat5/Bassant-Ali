@@ -29,7 +29,7 @@
 }
 
 .ccontainer {
-  @apply container lg:px-[120px] py-12 px-6;
+  @apply container lg:px-[120px] py-12 overflow-hidden px-6;
 }
 
 body {
