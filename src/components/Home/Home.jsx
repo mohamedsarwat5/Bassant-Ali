@@ -1,10 +1,11 @@
 import React from 'react'
+import Services from '../Services/Services'
 
 export default function Home() {
     return <>
 
-        <div className='h-[95px]'></div>
-        <div className="ccontainer text-center h-screen  flex items-center flex-col mx-auto">
+        <div className='h-[25px] '></div>
+        <div id='home' className="ccontainer text-center h-screen  flex items-center justify-center flex-col mx-auto ">
             <h2 className='text-[20px] font-medium dark:text-white  text-gray-500'>Hello, I'm Bassant Ali and I'm a </h2>
             <h2 className='lg:text-7xl text-3xl font-extrabold font-[poppins] mb-12 mt-5 lg:w-7/12 mx-auto dark:text-orange'>UI/UX Designer based in Egypt</h2>
             <h2 className='lg:w-6/12 mx-auto text-[18px] font-medium dark:text-white  text-gray-500'>I love designing websites and user interfaces, doing freelance work and focusing on designing digital products that are easy on users and customers.</h2>
@@ -16,8 +17,7 @@ export default function Home() {
 
 
 
-
-
+        <Services></Services>
     </>
 
 }
