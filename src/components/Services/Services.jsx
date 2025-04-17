@@ -14,7 +14,7 @@ export default function Services() {
 
     return (
         <>
-            {/* <div className='h-[95px] bg-black'></div> */}
+            <div className='h-[55px] bg-black'></div>
 
             <div id='services' className={` ccontainer  bg-black text-5xl bg-cover bg-no-repeat bg-center min-h-screen  flex flex-col items-center justify-center`} style={{ backgroundImage: `url(${img})` }}>
                 <motion.h2
