@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react'
 import Services from '../Services/Services'
 import { motion } from 'framer-motion'
 import Btn from '../btn/btn'
+import Bttn from '../Bttn/Bttn'
 
 export default function Home() {
 
 
 
     return (<>
-        <Btn></Btn>
+<Bttn></Bttn>
         <div className='h-[25px] '></div>
         <div id='home' className="ccontainer  text-center h-screen  flex items-center justify-center flex-col mx-auto ">
             <motion.h2
