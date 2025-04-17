@@ -27,5 +27,5 @@
 }
 
 .ccontainer {
-  @apply container md:px-[120px] py-6 px-5;
+  @apply container lg:px-[120px] py-6 px-5;
 }
