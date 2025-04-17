@@ -36,7 +36,7 @@ export default function Services() {
                     <motion.div
                         initial={{ opacity: 0, scale: .8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: .4, delay: .6 }}
+                        transition={{ duration: .4, delay: .5 }}
                         className='p-8 lg:w-4/12 bg-white dark:bg-fd rounded-4xl text-center'>
                         <div className=' flex items-center  justify-center h-32  w-32 mx-auto mb-3 bg-orange rounded-full'><img src={img2} alt="" /></div>
                         <h3 className=' font-bold  text-3xl dark:text-white'>UI/UX Design</h3>
@@ -45,7 +45,7 @@ export default function Services() {
                     <motion.div
                         initial={{ opacity: 0, scale: .8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: .4, delay: .7 }}
+                        transition={{ duration: .4, delay: .5 }}
                         className='p-8 lg:w-4/12 bg-white dark:bg-fd rounded-4xl text-center'>
                         <div className=' flex items-center  justify-center h-32  w-32 mx-auto mb-3 bg-orange rounded-full'><img src={img1} alt="" /></div>
                         <h3 className=' font-bold  text-3xl dark:text-white'>UI/UX Design</h3>
