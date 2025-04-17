@@ -22,7 +22,7 @@ export default function Navbar() {
 
                 <div className={`transition-all duration-500 ease-in-out overflow-hidden w-full md:w-auto md:opacity-100 md:scale-100 md:max-h-full md:overflow-visible ${isOpen ? 'max-h-[500px] opacity-100 scale-100' : 'max-h-0 opacity-0 scale-95'}md:block `}
                 >
-                    <ul className="font-normal text-center flex flex-col md:flex-row p-4 md:p-0 mt-4  gap-9  md:mt-0">
+                    <ul className="font-medium text-center flex flex-col md:flex-row p-4 md:p-0 mt-4  gap-9  md:mt-0">
                         <li>
                             <NavLink to={'/'} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>Home</NavLink>
                         </li>
