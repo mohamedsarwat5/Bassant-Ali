@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -10,19 +10,17 @@ export default function Navbar() {
         document.getElementById('moon').classList.toggle('bxs-moon')
         document.getElementById('moon').classList.toggle('bxs-sun')
     }
-    const shandledarkmode = () => {
-        document.documentElement.classList.toggle('dark')
-        document.getElementById('smoon').classList.toggle('bxs-moon')
-        document.getElementById('smoon').classList.toggle('bxs-sun')
-    }
+
 
     const [isOpen, setIsOpen] = useState(false)
-    return (
-        <nav className={` ${isOpen&&'opacity-90'} bg-black   text-white rounded-b-2xl lg:rounded-b-none  fixed top0  w-full`}>
+    return (<>
+
+        <div className={`${isOpen ? 'opacity-85 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-all duration-300 ease-in-out w-full h-full top-0 bottom-0 end-0 left-0 bg-black  absolute z-20 `}></div>
+        <nav className={` ${isOpen && 'opacity-90'} bg-black   text-white rounded-b-2xl lg:rounded-b-none  fixed top-0 z-50 w-full`}>
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between py-5 mx-auto px-6">
                 <div className='flex items-center gap-3'>
                     <span className='h-2 w-2 bg-white rounded-full'></span>
-                    <Link className='font-[poppins] font-medium text-lg lg:text-2xl'>Bassant Ali</Link>
+                    <Link className='font-[poppins] font-bold text-lg lg:text-2xl'>Bassant Ali</Link>
                     <span className='h-2 w-2 bg-white rounded-full'></span>
                 </div>
                 <div className='flex items-center gap-3 md:order-1'>
@@ -56,5 +54,5 @@ export default function Navbar() {
                 </div>
             </div>
         </nav>
-    )
+    </>)
 }
