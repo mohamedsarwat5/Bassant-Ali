@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import Services from '../Services/Services'
 import { motion } from 'framer-motion'
+import Btn from '../btn/btn'
 
 export default function Home() {
 
 
 
-    return <>
-
+    return (<>
+        <Btn></Btn>
         <div className='h-[25px] '></div>
         <div id='home' className="ccontainer  text-center h-screen  flex items-center justify-center flex-col mx-auto ">
             <motion.h2
@@ -40,5 +41,6 @@ export default function Home() {
         <Services></Services>
 
     </>
+    )
 
 }
