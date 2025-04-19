@@ -39,13 +39,13 @@ export default function Navbar() {
                             <NavLink to={''} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/about'} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>About</NavLink>
-                        </li>
-                        <li>
                             <NavLink to={'/services'} onClick={() => setIsOpen(false)} className={`font-[poppins]  hover:text-orange duration-300 ease-in-out cursor-pointer`}>Services</NavLink>
                         </li>
                         <li>
                             <NavLink to={'/projects'} onClick={() => setIsOpen(false)} className={`font-[poppins]  hover:text-orange duration-300 ease-in-out cursor-pointer`}>Projects</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={'/about'} onClick={() => setIsOpen(false)} className={`font-[poppins]   hover:text-orange duration-300 ease-in-out cursor-pointer`}>About</NavLink>
                         </li>
                         <li>
                             <NavLink to={'/contact'} onClick={() => setIsOpen(false)} className={`font-[poppins]  hover:text-orange duration-300 ease-in-out cursor-pointer`}>Contact</NavLink>

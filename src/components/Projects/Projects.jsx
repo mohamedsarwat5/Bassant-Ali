@@ -27,24 +27,7 @@ export default function Projects() {
         </motion.h2>
         <div className='flex flex-col lg:flex-row items-center lg:gap-y-2 gap-y-7 flex-wrap'>
 
-          <motion.div
-            initial={{ opacity: 0, scale: .8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: .4 }}
-            className='lg:w-4/12 lg:min-h-[350px] h-full flex  flex-col group lg:px-3 '>
-            <a href='https://www.behance.net/gallery/219527369/mowana-hotel-landing-page' target='_blank'>
-              <div className='relative    '>
-                <img src={mowana} className='rounded-4xl' alt="" />
-                <div className='absolute end-0 bottom-0 top-0 left-0 h-full w-full rounded-4xl flex items-center justify-center bg-oranget cursor-pointer  text-white opacity-0 group-hover:opacity-100 duration-300'>
-                  <a className='text-3xl font-medium font-[poppins]' target='_blank'>  Learn More</a>
-                </div>
-              </div>
-              <div className='px-3 mt-3'>
-                <h2 className='capitalize font-bold font-[poppins] text-[20px] dark:text-white'>mowana hotel landing page</h2>
-                <p className='font-medium text-gray-700 dark:text-white'>Designing Web App - 2024</p>
-              </div>
-            </a>
-          </motion.div>
+
 
           <motion.div
             initial={{ opacity: 0, scale: .8 }}
@@ -117,6 +100,24 @@ export default function Projects() {
               </div>
               <div className='px-3 mt-3'>
                 <h2 className='capitalize font-bold font-[poppins] text-[20px] dark:text-white'>Ehab Fayez Challenge 1</h2>
+                <p className='font-medium text-gray-700 dark:text-white'>Designing Web App - 2024</p>
+              </div>
+            </a>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: .8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: .4 }}
+            className='lg:w-4/12 lg:min-h-[350px] h-full flex  flex-col group lg:px-3 '>
+            <a href='https://www.behance.net/gallery/219527369/mowana-hotel-landing-page' target='_blank'>
+              <div className='relative    '>
+                <img src={mowana} className='rounded-4xl' alt="" />
+                <div className='absolute end-0 bottom-0 top-0 left-0 h-full w-full rounded-4xl flex items-center justify-center bg-oranget cursor-pointer  text-white opacity-0 group-hover:opacity-100 duration-300'>
+                  <a className='text-3xl font-medium font-[poppins]' target='_blank'>  Learn More</a>
+                </div>
+              </div>
+              <div className='px-3 mt-3'>
+                <h2 className='capitalize font-bold font-[poppins] text-[20px] dark:text-white'>mowana hotel landing page</h2>
                 <p className='font-medium text-gray-700 dark:text-white'>Designing Web App - 2024</p>
               </div>
             </a>

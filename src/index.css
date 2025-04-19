@@ -10,6 +10,7 @@
   --color-orange: #FF8D46;
   --color-oranget: #00000092;
   --color-fd: #151515;
+  --color-do: #ef5c00;
 }
 
 
@@ -30,12 +31,12 @@
 }
 
 .ccontainer {
-  @apply container lg:px-[120px] py-12 overflow-hidden px-6;
+  @apply container lg:px-[120px] py-12 overflow-hidden px-6 mx-auto;
 }
 
 
 h6 {
-  color: #00000092;
+  color: #ef5c00;
 }
 
 a.btn:hover {
@@ -43,4 +44,3 @@ a.btn:hover {
   color: #FF8D46;
   border-color: #FF8D46;
 }
-

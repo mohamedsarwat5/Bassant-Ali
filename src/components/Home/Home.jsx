@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Services from '../Services/Services'
 import { motion } from 'framer-motion'
 import ProjectsPre from '../ProjectsPre/ProjectsPre'
+import Contact from '../Contact/Contact'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
 
 
 
     return (<>
-        {/* <Bttn></Bttn> */}
         <div className='h-[25px] '></div>
         <div id='home' className="ccontainer overflow-hidden text-center h-screen  flex items-center justify-center flex-col mx-auto ">
             <motion.h2
@@ -31,7 +32,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: .4, delay: .7 }}
                 className='flex items-center gap-3 lg:gap-10 mt-14'>
-                <a className='btn p-4 lg:px-6 bg-orange   border border-transparent  duration-300 ease-in-out font-medium font-[poppins] text-white rounded-4xl' href="#projects">Check my projects</a>
+                <Link to={'/projects'} className='btn p-4 lg:px-6 bg-orange   border border-transparent  duration-300 ease-in-out font-medium font-[poppins] text-white rounded-4xl' href="#projects">Check my projects</Link>
                 <a className=' p-4 lg:px-6 text-orange border border-orange rounded-4xl font-normal hover:bg-orange hover:text-white duration-300 font-[poppins] flex items-center gap-2' href="mailto:bassantalielfaqy@gmail.com"> <i class='bx bx-envelope' ></i>Email me</a>
             </motion.div>
         </div>
@@ -40,6 +41,7 @@ export default function Home() {
 
         <Services></Services>
         <ProjectsPre></ProjectsPre>
+        <Contact></Contact>
     </>
     )
 

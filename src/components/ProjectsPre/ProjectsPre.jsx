@@ -4,6 +4,8 @@ import mowana from '../../assets/mowana.png'
 import Untitled from '../../assets/Untitled.png'
 import dash from '../../assets/dash.png'
 import { Link } from 'react-router-dom'
+import dolaby from '../../assets/dolaby.png'
+
 // import mowana from '../../assets/mowana.png'
 // import mowana from '../../assets/mowana.png'
 // import mowana from '../../assets/mowana.png'
@@ -54,17 +56,16 @@ export default function ProjectsPre() {
                         transition={{ duration: .4, delay: .3 }}
 
                         className='lg:w-4/12 flex  flex-col group'>
-                        <a href='https://www.behance.net/gallery/209083985/Ehab-Fayez-challenge-Real-Estate-website' target='_blank'>
-
-                            <div className='relative  overflow-hidden  '>
-                                <img src={Untitled} className='rounded-4xl' alt="" />
+                        <a href='https://www.behance.net/gallery/219161657/Dolaby-app-(uxui-case-study)' target='_blank'>
+                            <div className='relative  '>
+                                <img src={dolaby} className='rounded-4xl ' alt="" />
                                 <div className='absolute end-0 bottom-0 top-0 left-0 h-full w-full rounded-4xl flex items-center justify-center bg-oranget cursor-pointer  text-white opacity-0 group-hover:opacity-100 duration-300'>
                                     <a className='text-3xl font-medium font-[poppins]' target='_blank'>  Learn More</a>
                                 </div>
                             </div>
                             <div className='px-3 mt-3'>
-                                <h2 className='capitalize font-bold font-[poppins] text-[20px] dark:text-white'>Real Estate website</h2>
-                                <p className='font-medium text-gray-700 dark:text-white'>Designing Web App - 2024</p>
+                                <h2 className='capitalize font-bold font-[poppins] text-[20px] dark:text-white'>Dolaby app</h2>
+                                <p className='font-medium text-gray-700 dark:text-white capitalize'>case study</p>
                             </div>
                         </a>
                     </motion.div>
