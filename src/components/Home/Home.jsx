@@ -3,15 +3,16 @@ import Services from '../Services/Services'
 import { motion } from 'framer-motion'
 import Btn from '../btn/btn'
 import Bttn from '../Bttn/Bttn'
+import ProjectsPre from '../ProjectsPre/ProjectsPre'
 
 export default function Home() {
 
 
 
     return (<>
-<Bttn></Bttn>
+        {/* <Bttn></Bttn> */}
         <div className='h-[25px] '></div>
-        <div id='home' className="ccontainer  text-center h-screen  flex items-center justify-center flex-col mx-auto ">
+        <div id='home' className="ccontainer overflow-hidden text-center h-screen  flex items-center justify-center flex-col mx-auto ">
             <motion.h2
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -32,7 +33,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: .4, delay: .7 }}
                 className='flex items-center gap-3 lg:gap-10 mt-14'>
-                <a className=' p-4 lg:px-6 bg-orange  hover:bg-transparent hover:text-orange border border-transparent hover:border-orange duration-300 ease-in-out font-medium font-[poppins] text-white rounded-4xl' href="#projects">Check my projects</a>
+                <a className='btn p-4 lg:px-6 bg-orange   border border-transparent  duration-300 ease-in-out font-medium font-[poppins] text-white rounded-4xl' href="#projects">Check my projects</a>
                 <a className=' p-4 lg:px-6 text-orange border border-orange rounded-4xl font-normal hover:bg-orange hover:text-white duration-300 font-[poppins] flex items-center gap-2' href="mailto:bassantalielfaqy@gmail.com"> <i class='bx bx-envelope' ></i>Email me</a>
             </motion.div>
         </div>
@@ -40,7 +41,7 @@ export default function Home() {
 
 
         <Services></Services>
-
+        <ProjectsPre></ProjectsPre>
     </>
     )
 

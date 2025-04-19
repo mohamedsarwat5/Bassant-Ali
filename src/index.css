@@ -8,6 +8,7 @@
 
 @theme {
   --color-orange: #FF8D46;
+  --color-oranget: #00000092;
   --color-fd: #151515;
 }
 
@@ -30,5 +31,16 @@
 
 .ccontainer {
   @apply container lg:px-[120px] py-12 overflow-hidden px-6;
+}
+
+
+h6 {
+  color: #00000092;
+}
+
+a.btn:hover {
+  background: transparent;
+  color: #FF8D46;
+  border-color: #FF8D46;
 }
 

@@ -7,6 +7,7 @@ import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
 
+
 export default function App() {
 
 
@@ -29,7 +30,7 @@ export default function App() {
 
 
 
-    <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}></RouterProvider>
 
 
 
