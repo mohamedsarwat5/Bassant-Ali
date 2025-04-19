@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Services from '../Services/Services'
 import { motion } from 'framer-motion'
-import Btn from '../btn/btn'
-import Bttn from '../Bttn/Bttn'
 import ProjectsPre from '../ProjectsPre/ProjectsPre'
 
 export default function Home() {
