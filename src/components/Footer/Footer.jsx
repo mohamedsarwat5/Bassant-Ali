@@ -11,7 +11,7 @@ export default function Footer() {
     <>
 
 
-      <div className='bg-do  h-16  text-black font-[poppins]  text-center flex justify-center items-center font-bold '>
+      <div className='bg-do  h-16  text-black font-[poppins]  overflow-hidden mx-auto text-center flex justify-center items-center font-bold '>
         © Copyright 2017 - Bassant Ali - All Rights Reserved
       </div>
 

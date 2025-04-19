@@ -17,7 +17,7 @@ export default function Projects() {
     <>
       <div className='h-[75px] '></div>
 
-      <div className='ccontainer min-h-screen overflow-hidden flex flex-col items-center justify-center'>
+      <div className='ccontainer min-h-screen overflow-hidden mx-auto flex flex-col items-center justify-center'>
         <motion.h2
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}

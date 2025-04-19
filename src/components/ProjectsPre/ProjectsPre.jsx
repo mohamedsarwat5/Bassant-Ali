@@ -17,7 +17,7 @@ export default function ProjectsPre() {
             <div className='h-[25px] '></div>
 
 
-            <div className='ccontainer  overflow-hidden flex flex-col items-center justify-center'>
+            <div className='ccontainer  overflow-hidden mx-auto flex flex-col items-center justify-center'>
                 <motion.h2
                     initial={{ opacity: 0, x: 200 }}
                     whileInView={{ opacity: 1, x: 0 }}

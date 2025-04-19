@@ -17,7 +17,7 @@ export default function Services() {
             <div className='h-[55px] '></div>
 
             <div className='bg-black'>
-                <div id='services' className={` ccontainer   text-5xl bg-cover bg-no-repeat bg-center min-h-screen overflow-hidden flex flex-col items-center justify-center `} style={{ backgroundImage: `url(${img})` }}>
+                <div id='services' className={` ccontainer  mx-auto text-5xl bg-cover bg-no-repeat bg-center min-h-screen overflow-hidden flex flex-col items-center justify-center `} style={{ backgroundImage: `url(${img})` }}>
                     <motion.h2
                         initial={{ opacity: 0, x: 200 }}
                         whileInView={{ opacity: 1, x: 0 }}

@@ -8,7 +8,7 @@ export default function Contact() {
     <>
       <div className='h-[55px] '></div>
 
-      <div className='flex flex-col min-h-screen items-center justify-center bg-black'>
+      <div className='flex flex-col min-h-screen items-center justify-center overflow-hidden mx-auto bg-black'>
         <motion.h2
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}
