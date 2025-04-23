@@ -10,7 +10,7 @@ export default function Home() {
 
 
     return (<>
-        <div className='h-[55px] '></div>
+        <div className='h-[25px] '></div>
          <div id='home' className="ccontainer overflow-hidden text-center h-screen  flex items-center justify-center flex-col mx-auto ">
                         <motion.h2
                             initial={{ opacity: 0, x: -100 }}
@@ -27,7 +27,7 @@ export default function Home() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: .4, delay: .6 }}
                             className='lg:w-6/12 mx-auto text-[18px] font-medium dark:text-white  text-gray-500'>I love designing websites and user interfaces, doing freelance work and focusing on designing digital products that are easy on users and customers.</motion.h2>
-                       
+
                     </div>
 
 
