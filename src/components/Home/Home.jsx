@@ -10,7 +10,7 @@ export default function Home() {
 
 
     return (<>
-        <div className='h-[25px] '></div>
+        {/* <div className='h-[25px] '></div> */}
          <div id='home' className="ccontainer overflow-hidden text-center h-screen  flex items-center justify-center flex-col mx-auto ">
                         <motion.h2
                             initial={{ opacity: 0, x: -100 }}
