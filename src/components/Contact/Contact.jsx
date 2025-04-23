@@ -29,7 +29,9 @@ export default function Contact() {
               <a href='https://www.facebook.com/share/1DH8shRdY2/' target='_blank'>
                 <i className='cursor-pointer  hover:text-orange duration-300 fa-brands fa-facebook-f'></i>
               </a>
-              <i className='cursor-pointer  hover:text-orange duration-300 fa-brands fa-instagram'></i>
+              <a href='https://www.tiktok.com/@bassant.ali71?_t=ZS-8vm8H9ak7jL&_r=1' target='_blank'>
+                <i className='cursor-pointer  hover:text-orange duration-300 fa-brands fa-tiktok'></i>
+              </a>
               <a href='https://www.behance.net/bossyalabdalsa/projects?error=invalid_scope' target='_blank'>
                 <i className='cursor-pointer  hover:text-orange duration-300 fa-brands fa-behance'></i>
               </a>

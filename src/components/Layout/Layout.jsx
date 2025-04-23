@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from '../Navbar/Navbar'
 import { Outlet, useLocation } from 'react-router-dom'
+import { AnimatePresence } from "framer-motion";
 import Footer from '../Footer/Footer'
 import Scroll from '../Scroll/Scroll'
 
@@ -14,8 +15,9 @@ export default function Layout() {
         <>
             <Navbar></Navbar>
             <Scroll></Scroll>
-
-            <Outlet></Outlet>
+            <AnimatePresence mode="wait">
+                <Outlet key={pathname}></Outlet>
+            </AnimatePresence>
             <Footer></Footer>
 
         </>
