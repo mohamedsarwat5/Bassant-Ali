@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function About() {
     return (
         <>
-            <div className='h-[25px] '></div>
+            <div className='h-[55px] '></div>
             <div id='home' className="ccontainer overflow-hidden text-center h-screen  flex items-center justify-center flex-col mx-auto ">
                 <motion.h2
                     initial={{ opacity: 0, x: -100 }}
@@ -18,7 +18,7 @@ export default function About() {
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: .4, delay: .4 }}
-                    className='lg:text-7xl text-3xl font-extrabold font-[poppins] mb-12 mt-5 lg:w-7/12 mx-auto dark:text-orange'>UI/UX Designer based in Egypt</motion.h2>
+                    className='lg:text-6xl text-3xl font-extrabold font-[poppins] mb-12 mt-5 lg:w-7/12 mx-auto dark:text-orange lg:leading-18'>UI/UX Designer <br /> and Instructor based in Egypt</motion.h2>
                 <motion.h2
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
